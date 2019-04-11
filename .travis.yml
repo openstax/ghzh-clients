@@ -1,0 +1,12 @@
+language: python
+sudo: false
+python:
+  - "3.7"
+before_script:
+  - pip install codeclimate-test-reporter
+  - pip freeze
+jobs:
+  include:
+    - stage: coverage
+      script: coverage run setup.py test
+      after_success: codeclimate-test-reporter
