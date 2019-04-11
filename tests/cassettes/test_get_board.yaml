@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.20.1
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/board
+  response:
+    body:
+      string: '{"pipelines":[{"id":"5afb06d32133e1068138755b","name":"Icebox","issues":[{"issue_number":33,"is_epic":false,"position":0},{"issue_number":34,"is_epic":false,"position":1},{"issue_number":46,"is_epic":false,"position":2}]},{"id":"5afb06d32133e1068138755a","name":"New
+        Issues","issues":[]},{"id":"5afb06d32133e1068138755c","name":"Backlog","issues":[{"issue_number":56,"is_epic":false,"position":0}]},{"id":"5afd8542d4deb56b59f2f2db","name":"Epics","issues":[]},{"id":"5b967aa7aef63a0ac7e79040","name":"Analysis","issues":[]},{"id":"5afb06d32133e1068138755d","name":"In
+        Progress","issues":[]},{"id":"5b0f091bb0890f5390199466","name":"Blocked","issues":[]},{"id":"5b8ebe14fb5dec0b0d9c9ae4","name":"Parked","issues":[]},{"id":"5afb06d32133e1068138755e","name":"Review/QA","issues":[]},{"id":"5afb06d32133e1068138755f","name":"Done","issues":[]}]}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '842'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 11 Apr 2019 19:36:42 GMT
+      ETag:
+      - W/"34a-1498388470"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1555011420'
+      X-RateLimit-Used:
+      - '1'
+      X-ZenHub-Request-Id:
+      - d9cf5c13-846e-4df0-a3f0-e44785945a17
+    status:
+      code: 200
+      message: OK
+version: 1

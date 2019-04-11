@@ -1,0 +1,54 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.20.1
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"plus_ones":[],"pipeline":{"name":"Icebox","pipeline_id":"5afb06d32133e1068138755b","workspace_id":"5afb06d32133e10681387560"},"pipelines":[{"name":"Icebox","pipeline_id":"5afb06d32133e1068138755b","workspace_id":"5afb06d32133e10681387560"}],"is_epic":false}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '259'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 11 Apr 2019 19:44:56 GMT
+      ETag:
+      - W/"103-1373330643"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1555011900'
+      X-RateLimit-Used:
+      - '1'
+      X-ZenHub-Request-Id:
+      - 02a45855-72ad-41b9-bc75-75004e87088f
+    status:
+      code: 200
+      message: OK
+version: 1
