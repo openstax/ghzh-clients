@@ -1,7 +1,7 @@
 language: python
-sudo: false
 python:
-  - "3.7"
+  - '3.7'
+dist: xenial
 before_script:
   - pip install codeclimate-test-reporter
   - pip freeze
