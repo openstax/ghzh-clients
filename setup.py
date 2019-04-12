@@ -4,7 +4,7 @@ requires = ['github3.py', 'backoff', 'requests']
 
 setup(
     name='ghzh-clients',
-    version='0.1.0dev0',
+    version='0.1.0.dev0',
     description='A library that combines GitHub and ZenHub '
                 'clients used for various OpenStax reports',
     long_description='',
