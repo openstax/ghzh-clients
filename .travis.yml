@@ -3,6 +3,7 @@ python:
   - '3.7'
 dist: xenial
 before_script:
+  - sudo apt-get install libyaml-dev
   - pip install codeclimate-test-reporter
   - pip freeze
 jobs:
