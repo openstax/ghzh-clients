@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from src import GitHubClient, ZenHubClient
+from ghzh import GitHubClient, ZenHubClient
 
 credentials = [
     os.environ.get("GITHUB_USER", "foo"),
