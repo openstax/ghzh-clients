@@ -4,13 +4,13 @@ import pytest
 @pytest.mark.vcr()
 def test_find_pr_commits(github_client):
 
-    repo = "openstax/biglearn-api"
-    base = "ce2503b458a36053c5b7cb4fa88706a66e447fc2"
-    head = "3c0fdb4ad15127d0d3eac2ff9ba376f94bf4c24f"
+    repo = "openstax/openstax-cms"
+    base = "32cd356522ae5f923a68ad30627e8e462f874303"
+    head = "d86fb8ea2fbadd831aba669d67ac2f27e6b58057"
 
     pr_commits = github_client.find_pr_commits(repo, base, head)
 
-    assert len(pr_commits) == 2
+    assert 10 == len(pr_commits)
 
     for commit in pr_commits:
         assert commit.is_pr_commit
