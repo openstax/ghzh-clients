@@ -46,7 +46,8 @@ class Commit(ShortCommit):
 
     @property
     def is_pr_commit(self):
-        return (self.is_merge_commit or self.is_squash_commit) and not self.is_master_merge
+        return (self.is_merge_commit or self.is_squash_commit) and not (
+                    self.is_master_merge or self.is_branch_merge)
 
     @property
     def is_merge_commit(self):
@@ -54,7 +55,16 @@ class Commit(ShortCommit):
 
     @property
     def is_master_merge(self):
-        return 'Merge' in self.message and 'branch' in self.message and 'master' in self.message
+        if self.is_merge_commit:
+            return 'Merge' in self.message and 'branch' in self.message and 'master' in self.message
+
+    @property
+    def is_branch_merge(self):
+        if self.is_merge_commit:
+            if self.is_master_merge:
+                return False
+            else:
+                return 'Merge' in self.message and 'branch' in self.message
 
     @property
     def is_squash_commit(self):
