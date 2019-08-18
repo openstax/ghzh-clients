@@ -4,15 +4,16 @@ import pytest
 @pytest.mark.vcr()
 def test_get_board(zenhub_client):
 
-    repo_id = "145164796"
+    repo_id = "132146582"
+    workspace_id = "5af1f4cc12da5e6d74331b60"
 
-    board = zenhub_client.get_board(repo_id)
+    board = zenhub_client.get_board(workspace_id=workspace_id, repo_id=repo_id)
 
     assert "pipelines" in board
 
     pipelines = board["pipelines"]
 
-    assert len(pipelines) == 10
+    assert len(pipelines) == 14
 
 
 @pytest.mark.vcr()
@@ -26,7 +27,7 @@ def test_get_issue(zenhub_client):
     assert not issue["is_epic"]
     assert not issue["plus_ones"]
     assert issue_num == issue_num
-    assert issue["pipeline"]["name"] == "Icebox"
+    assert issue["pipeline"]["name"] == "New Issues"
 
 
 @pytest.mark.vcr()

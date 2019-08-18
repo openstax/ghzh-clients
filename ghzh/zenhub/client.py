@@ -10,7 +10,7 @@ LOGS = logging.getLogger(__name__)
 
 class ZenHubClient(object):
     def __init__(self, token, session=requests.Session):
-        self.base_url = 'https://api.zenhub.io/p1'
+        self.base_url = 'https://api.zenhub.io'
         self.token = token
         self.session = session()
         self.session.headers.update({
@@ -41,24 +41,32 @@ class ZenHubClient(object):
         """Sends a get request"""
         return self.request('get', url, **kwargs)
 
-    def _build_url(self, *args):
-        parts = [self.base_url]
+    def _build_url(self, api_version, *args):
+        parts = [self.base_url, api_version]
 
         parts.extend(args)
         parts = [str(p) for p in parts]
 
         return '/'.join(parts)
 
-    def get_board(self, repo_id):
-        url = self._build_url('repositories', repo_id, 'board')
+    def get_oldest_board(self, repo_id):
+        url = self._build_url('p1', 'repositories', repo_id, 'board')
+        return self.get(url)
+
+    def get_workspaces(self, repo_id):
+        url = self._build_url('p2', 'repositories', repo_id, 'workspaces')
+        return self.get(url)
+
+    def get_board(self, workspace_id, repo_id):
+        url = self._build_url('p2', 'workspaces', workspace_id, 'repositories', repo_id, 'board')
         return self.get(url)
 
     def get_issue(self, repo_id, issue_number):
-        url = self._build_url('repositories', repo_id, 'issues', issue_number)
+        url = self._build_url('p1', 'repositories', repo_id, 'issues', issue_number)
         return self.get(url)
 
     def get_issue_events(self, repo_id, issue_number):
-        url = self._build_url('repositories', repo_id, 'issues', issue_number, 'events',)
+        url = self._build_url('p1', 'repositories', repo_id, 'issues', issue_number, 'events')
         return self.get(url)
 
 

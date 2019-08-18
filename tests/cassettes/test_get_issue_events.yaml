@@ -53,4 +53,346 @@ interactions:
     status:
       code: 200
       message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '{"message":"invalid authentication token in headers"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '53'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 19:53:49 GMT
+      ETag:
+      - W/"35-3430493592"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 401
+      message: Unauthorized
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33/events Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Alt-Svc:
+      - clear
+      Content-Length:
+      - '71'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:33:26 GMT
+      ETag:
+      - W/"47-1280621044"
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      Via:
+      - 1.1 google
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 6d390463-1b98-4773-ac29-e39cd9ac5606
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33/events Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '71'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:54:46 GMT
+      ETag:
+      - W/"47-1280621044"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 2bb22ad2-e2c4-482f-bed2-f99b7922b435
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33/events Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '71'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:55:09 GMT
+      ETag:
+      - W/"47-1280621044"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 28489a8e-d74b-46de-91f1-51494e04a3ae
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '[{"user_id":8730430,"type":"transferIssue","created_at":"2019-02-21T14:13:35.631Z","from_pipeline":{"name":"New
+        Issues"},"to_pipeline":{"name":"Icebox"},"workspace_id":"5afb06d32133e10681387560"},{"user_id":33845092,"type":"transferIssue","created_at":"2018-10-22T20:21:37.353Z","from_pipeline":{"name":"Icebox"},"to_pipeline":{"name":"New
+        Issues"},"workspace_id":"5afb06d32133e10681387560"}]'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '392'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 23:03:22 GMT
+      ETag:
+      - W/"188-2509094778"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1566083040'
+      X-RateLimit-Used:
+      - '1'
+      X-Request-Id:
+      - 6ae9fa9d-653d-412e-aa38-bad7d796be0d
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/issues/33/events
+  response:
+    body:
+      string: '[{"user_id":8730430,"type":"transferIssue","created_at":"2019-02-21T14:13:35.631Z","from_pipeline":{"name":"New
+        Issues"},"to_pipeline":{"name":"Icebox"},"workspace_id":"5afb06d32133e10681387560"},{"user_id":33845092,"type":"transferIssue","created_at":"2018-10-22T20:21:37.353Z","from_pipeline":{"name":"Icebox"},"to_pipeline":{"name":"New
+        Issues"},"workspace_id":"5afb06d32133e10681387560"}]'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '392'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 23:04:16 GMT
+      ETag:
+      - W/"188-2509094778"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1566083100'
+      X-RateLimit-Used:
+      - '1'
+      X-Request-Id:
+      - b12ff642-8a8b-4e3a-bc83-9df5dfbc7d51
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
 version: 1
