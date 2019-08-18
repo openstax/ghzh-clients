@@ -51,4 +51,344 @@ interactions:
     status:
       code: 200
       message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"message":"invalid authentication token in headers"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '53'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 19:53:49 GMT
+      ETag:
+      - W/"35-3430493592"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 401
+      message: Unauthorized
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33 Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Alt-Svc:
+      - clear
+      Content-Length:
+      - '64'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:33:26 GMT
+      ETag:
+      - W/"40-1342669713"
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      Via:
+      - 1.1 google
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 4c766b54-d9f0-469f-8b68-e4a853ecbf16
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33 Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '64'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:54:45 GMT
+      ETag:
+      - W/"40-1342669713"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 0d8ed040-1d8d-4201-956f-892cade44c53
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p2/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"message":"URL /p2/repositories/145164796/issues/33 Not Found"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '64'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 22:55:08 GMT
+      ETag:
+      - W/"40-1342669713"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - c9a1ffca-32bd-40f9-acd2-8eabb5e0c310
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"plus_ones":[],"pipeline":{"name":"New Issues","pipeline_id":"5af1f4cc12da5e6d74331b5a","workspace_id":"5af1f4cc12da5e6d74331b60"},"pipelines":[{"name":"New
+        Issues","pipeline_id":"5af1f4cc12da5e6d74331b5a","workspace_id":"5af1f4cc12da5e6d74331b60"},{"name":"Icebox","pipeline_id":"5afb06d32133e1068138755b","workspace_id":"5afb06d32133e10681387560"}],"is_epic":false}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '368'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 23:03:22 GMT
+      ETag:
+      - W/"170-3987953158"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1566083040'
+      X-RateLimit-Used:
+      - '2'
+      X-Request-Id:
+      - b086e9de-8cc5-4d44-a4a2-ccdee61ac424
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+      X-Authentication-Token:
+      - xxxxxxxxxxxxxxxxxxxx
+    method: GET
+    uri: https://api.zenhub.io/p1/repositories/145164796/issues/33
+  response:
+    body:
+      string: '{"plus_ones":[],"pipeline":{"name":"New Issues","pipeline_id":"5af1f4cc12da5e6d74331b5a","workspace_id":"5af1f4cc12da5e6d74331b60"},"pipelines":[{"name":"New
+        Issues","pipeline_id":"5af1f4cc12da5e6d74331b5a","workspace_id":"5af1f4cc12da5e6d74331b60"},{"name":"Icebox","pipeline_id":"5afb06d32133e1068138755b","workspace_id":"5afb06d32133e10681387560"}],"is_epic":false}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '368'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 17 Aug 2019 23:04:15 GMT
+      ETag:
+      - W/"170-3987953158"
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      - max-age=31536000; includeSubdomains
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'on'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      - DENY
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Reset:
+      - '1566083100'
+      X-RateLimit-Used:
+      - '2'
+      X-Request-Id:
+      - 704a0250-4294-42f3-aa98-2b29804e1080
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
 version: 1
